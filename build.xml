@@ -4,7 +4,7 @@
 	<description>Build DigitalCube Package</description>
 	
 	
-	<target name="package" description="Package DigitalCube" depends="makeTempleteDir,copy,zipshellplugins,antplugins,mavenPlugins">
+	<target name="package" description="Package DigitalCube">
 		<echo message="Build successfully!" />
 	</target>
 </project>
